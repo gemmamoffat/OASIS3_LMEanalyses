@@ -1,0 +1,89 @@
+# Title Segmentation Statistics 
+# 
+# generating_program mri_segstats
+# cvs_version $Id: mri_segstats.c,v 1.121 2016/05/31 17:27:11 greve Exp $
+# cmdline mri_segstats --annot fsaverage rh aparc --i ./binarized/rh.vol0007.bin.mgh --sum ./binarized/rh.vol0007.bin.sum 
+# sysname  Linux
+# hostname neurodebian
+# machine  x86_64
+# user     brain
+# anatomy_type surface
+# 
+# SUBJECTS_DIR /usr/local/freesurfer/subjects
+# subjectname fsaverage
+# Annot fsaverage rh aparc
+# ColorTable /tmp/mri_segstats.tmp.fsaverage.rh.62.ctab 
+# ColorTableTimeStamp 2022/07/19 09:42:10 
+# InVolFile  ./binarized/rh.vol0007.bin.mgh 
+# InVolFileTimeStamp  2022/07/19 09:27:23 
+# InVolFrame 0 
+# Only reporting non-empty segmentations
+# VertexArea_mm2 0.501505 
+# TableCol  1 ColHeader Index 
+# TableCol  1 FieldName Index 
+# TableCol  1 Units     NA 
+# TableCol  2 ColHeader SegId 
+# TableCol  2 FieldName Segmentation Id
+# TableCol  2 Units     NA
+# TableCol  3 ColHeader NVertices 
+# TableCol  3 FieldName Number of Vertices
+# TableCol  3 Units     unitless
+# TableCol  4 ColHeader Area_mm2
+# TableCol  4 FieldName Area
+# TableCol  4 Units     mm^2
+# TableCol  5 ColHeader StructName
+# TableCol  5 FieldName Structure Name
+# TableCol  5 Units     NA
+# TableCol  6 ColHeader Mean 
+# TableCol  6 FieldName Intensity Mean
+# TableCol  6 Units     unknown
+# TableCol  7 ColHeader StdDev
+# TableCol  7 FieldName Itensity StdDev
+# TableCol  7 Units     unknown
+# TableCol  8 ColHeader Min
+# TableCol  8 FieldName Intensity Min
+# TableCol  8 Units     unknown
+# TableCol  9 ColHeader Max
+# TableCol  9 FieldName Intensity Max
+# TableCol  9 Units     unknown
+# TableCol 10 ColHeader Range
+# TableCol 10 FieldName Intensity Range
+# TableCol 10 Units     unknown
+# NRows 35 
+# NTableCols 10 
+# ColHeaders  Index SegId NVertices Area_mm2 StructName Mean StdDev Min Max Range  
+  1 2000     13916     5836.6  unknown                            0.0000     0.0000     0.0000     0.0000     0.0000 
+  2 2001      2196      876.9  bankssts                           0.0000     0.0000     0.0000     0.0000     0.0000 
+  3 2002      1608      709.3  caudalanteriorcingulate            0.0000     0.0000     0.0000     0.0000     0.0000 
+  4 2003      3494     1996.8  caudalmiddlefrontal                0.0000     0.0000     0.0000     0.0000     0.0000 
+  5 2005      1638     1273.5  cuneus                             0.3571     0.4793     0.0000     1.0000     1.0000 
+  6 2006       902      403.9  entorhinal                         0.0000     0.0000     0.0000     0.0000     0.0000 
+  7 2007      4661     2562.0  fusiform                           0.1129     0.3164     0.0000     1.0000     1.0000 
+  8 2008      9676     4790.5  inferiorparietal                   0.0051     0.0710     0.0000     1.0000     1.0000 
+  9 2009      4198     2642.6  inferiortemporal                   0.0000     0.0000     0.0000     0.0000     0.0000 
+ 10 2010      2388      876.2  isthmuscingulate                   0.0021     0.0457     0.0000     1.0000     1.0000 
+ 11 2011      5963     4459.7  lateraloccipital                   0.6237     0.4845     0.0000     1.0000     1.0000 
+ 12 2012      4354     2180.8  lateralorbitofrontal               0.0000     0.0000     0.0000     0.0000     0.0000 
+ 13 2013      3894     2782.8  lingual                            0.3808     0.4857     0.0000     1.0000     1.0000 
+ 14 2014      2801     1511.5  medialorbitofrontal                0.0000     0.0000     0.0000     0.0000     0.0000 
+ 15 2015      5057     2984.7  middletemporal                     0.0000     0.0000     0.0000     0.0000     0.0000 
+ 16 2016      1742      772.6  parahippocampal                    0.0000     0.0000     0.0000     0.0000     0.0000 
+ 17 2017      3831     1534.0  paracentral                        0.0000     0.0000     0.0000     0.0000     0.0000 
+ 18 2018      2472     1281.0  parsopercularis                    0.0000     0.0000     0.0000     0.0000     0.0000 
+ 19 2019       946      680.1  parsorbitalis                      0.0000     0.0000     0.0000     0.0000     0.0000 
+ 20 2020      2380     1265.2  parstriangularis                   0.0370     0.1887     0.0000     1.0000     1.0000 
+ 21 2021      1823     1289.5  pericalcarine                      0.4953     0.5001     0.0000     1.0000     1.0000 
+ 22 2022      9138     3828.1  postcentral                        0.0000     0.0000     0.0000     0.0000     0.0000 
+ 23 2023      2994     1182.7  posteriorcingulate                 0.0000     0.0000     0.0000     0.0000     0.0000 
+ 24 2024     10705     4673.9  precentral                         0.0000     0.0000     0.0000     0.0000     0.0000 
+ 25 2025      7975     3442.7  precuneus                          0.0000     0.0000     0.0000     0.0000     0.0000 
+ 26 2026      1051      547.1  rostralanteriorcingulate           0.0000     0.0000     0.0000     0.0000     0.0000 
+ 27 2027      7864     4953.1  rostralmiddlefrontal               0.0000     0.0000     0.0000     0.0000     0.0000 
+ 28 2028     11878     6351.2  superiorfrontal                    0.0000     0.0000     0.0000     0.0000     0.0000 
+ 29 2029     10222     5018.3  superiorparietal                   0.0555     0.2289     0.0000     1.0000     1.0000 
+ 30 2030      6868     3207.0  superiortemporal                   0.0000     0.0000     0.0000     0.0000     0.0000 
+ 31 2031      8150     3387.9  supramarginal                      0.0000     0.0000     0.0000     0.0000     0.0000 
+ 32 2032       369      258.0  frontalpole                        0.0000     0.0000     0.0000     0.0000     0.0000 
+ 33 2033       817      447.4  temporalpole                       0.0000     0.0000     0.0000     0.0000     0.0000 
+ 34 2034       781      303.3  transversetemporal                 0.0000     0.0000     0.0000     0.0000     0.0000 
+ 35 2035      5090     1856.7  insula                             0.0000     0.0000     0.0000     0.0000     0.0000 
